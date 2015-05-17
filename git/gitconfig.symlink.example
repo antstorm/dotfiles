@@ -1,0 +1,41 @@
+[user]
+  name = AUTHORNAME
+  email = AUTHOREMAIL
+[github]
+  user = antstorm
+  token = 2b45bb35bd26c61b3ae90d39b4d85fce
+[alias]
+  amend = commit --amend
+[apply]
+  whitespace = nowarn
+[core]
+  excludesfile = ~/.gitignore
+  autocrlf = input
+[branch]
+  autosetuprebase = always
+[push]
+  default = current
+[pull]
+  default = current
+[color]
+  status = auto
+  branch = auto
+  interactive = auto
+  diff = auto
+  ui = true
+[color "branch"]
+  current = green bold
+  local = yellow bold
+  remote = red bold
+[color "diff"]
+  meta = black bold
+  frag = cyan bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow bold
+  changed = red bold # also deleted
+  untracked = green bold
+[filter "media"]
+  clean = git-media-clean %f
+  smudge = git-media-smudge %f

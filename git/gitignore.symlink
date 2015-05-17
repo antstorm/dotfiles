@@ -1,0 +1,9 @@
+.DS_Store
+.Trashes
+.Spotlight-V100
+.rvmrc
+.ruby-version
+.rspec
+.bundle
+.idea
+.gems
