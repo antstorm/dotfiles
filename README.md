@@ -1,6 +1,6 @@
 # antstorm's dotfiles
 
-Based on [Zack Holman](https://github.com/holman)'s [dotfiles](https://github.com/holman/dotfiles)
+Based on [Zach Holman](https://github.com/holman)'s [dotfiles](https://github.com/holman/dotfiles)
 
 ## install
 

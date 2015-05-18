@@ -2,8 +2,8 @@
   name = AUTHORNAME
   email = AUTHOREMAIL
 [github]
-  user = antstorm
-  token = 2b45bb35bd26c61b3ae90d39b4d85fce
+  user = USERNAME
+  token = TOKEN
 [alias]
   amend = commit --amend
 [apply]
