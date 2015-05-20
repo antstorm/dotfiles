@@ -1,0 +1,14 @@
+# Convenience method for accessing heroku
+# usage examples:
+# - shopa console
+# - shopa config staging
+function shopa {
+  app_name_params=('shopadotcom' $2)
+  app_name=${(j:-:)app_name_params}
+
+  case $1 in
+    (console) heroku run console --app $app_name ;;
+    (config)  heroku config --app $app_name ;;
+    (db) heroku config --app $app_name | grep DATABASE_URL | awk '{ gsub(/\?.*/, ""); print $2 }' | xargs psql ;;
+  esac
+}
