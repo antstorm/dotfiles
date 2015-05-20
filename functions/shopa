@@ -2,13 +2,20 @@
 # usage examples:
 # - shopa console
 # - shopa config staging
+# - shopa logs dev --tail
+# - shopa sql 'SELECT * FROM users LIMIT 1'
+# - shopa dump production.sql
+
 function shopa {
   app_name_params=('shopadotcom' $2)
   app_name=${(j:-:)app_name_params}
 
   case $1 in
-    (console) heroku run console --app $app_name ;;
-    (config)  heroku config --app $app_name ;;
-    (db) heroku config --app $app_name | grep DATABASE_URL | awk '{ gsub(/\?.*/, ""); print $2 }' | xargs psql ;;
+    (restart) heroku run console --app $app_name                                                                                               ;;
+    (console) heroku restart --app $app_name                                                                                                   ;;
+    (config)  heroku config --app $app_name                                                                                                    ;;
+    (logs)    heroku logs ${*: -1:1} --app $app_name                                                                                           ;;
+    (sql)     heroku config --app $app_name | grep DATABASE_URL | awk '{ gsub(/\?.*/, ""); print $2 }' | xargs -I url psql url -c ${*: -1:1}   ;;
+    (dump)    heroku config --app $app_name | grep DATABASE_URL | awk '{ gsub(/\?.*/, ""); print $2 }' | xargs -I url pg_dump url > ${*: -1:1} ;;
   esac
 }
