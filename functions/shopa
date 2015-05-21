@@ -11,8 +11,8 @@ function shopa {
   app_name=${(j:-:)app_name_params}
 
   case $1 in
-    (restart) heroku run console --app $app_name                                                                                               ;;
-    (console) heroku restart --app $app_name                                                                                                   ;;
+    (console) heroku run console --app $app_name                                                                                               ;;
+    (restart) heroku restart --app $app_name                                                                                                   ;;
     (config)  heroku config --app $app_name                                                                                                    ;;
     (logs)    heroku logs ${*: -1:1} --app $app_name                                                                                           ;;
     (sql)     heroku config --app $app_name | grep DATABASE_URL | awk '{ gsub(/\?.*/, ""); print $2 }' | xargs -I url psql url -c ${*: -1:1}   ;;
