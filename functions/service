@@ -1,0 +1,3 @@
+#!/bin/sh
+
+./services/$1 $2

@@ -1,7 +1,0 @@
-function pg_start() {
-  pg_ctl -D $PGDATA -l $PGDATA/server.log start
-}
-
-functoion pg_stop() {
-  pg_ctl -D $PGDATA stop -s -m fast
-}
