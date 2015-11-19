@@ -6,6 +6,10 @@
   token = TOKEN
 [alias]
   amend = commit --amend
+  fixup = commit --fixup
+  unstage = reset HEAD --
+  discard = checkout --
+  lo = log --oneline --decorate
 [apply]
   whitespace = nowarn
 [core]
@@ -17,6 +21,9 @@
   default = current
 [pull]
   default = current
+[rebase]
+  autostash = true
+  autosquash = true
 [color]
   status = auto
   branch = auto
@@ -39,3 +46,7 @@
 [filter "media"]
   clean = git-media-clean %f
   smudge = git-media-smudge %f
+[filter "lfs"]
+  clean = git-lfs clean %f
+  smudge = git-lfs smudge %f
+  required = true
