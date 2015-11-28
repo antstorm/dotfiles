@@ -1,7 +1,0 @@
-#!/bin/sh
-
-case $1 in
-  start) elasticsearch -d                              ;;
-  stop)  curl -XPOST 'http://localhost:9200/_shutdown' ;;
-  *)     echo "Unrecognized command: $1"
-esac

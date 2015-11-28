@@ -1,7 +1,0 @@
-#!/bin/sh
-
-case $1 in
-  start) mongod --config /usr/local/etc/mongod.conf --fork ;;
-  stop)  killall mongod                                    ;;
-  *)     echo "Unrecognized command: $1"
-esac
