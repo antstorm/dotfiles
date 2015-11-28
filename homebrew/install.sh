@@ -13,6 +13,9 @@ then
 fi
 
 # Install homebrew packages
-brew install grc coreutils spark
+brew install grc coreutils
+
+# Install homebrew services
+brew tap homebrew/services
 
 exit 0
