@@ -1,4 +1,5 @@
 function reset_mail_app() {
   rm -rf /Users/anthony/Library/Containers/com.apple.mail/Data/Library/Saved\ Application\ State/com.apple.mail.savedState
   killall Mail
+  open /Applications/Mail.app
 }
