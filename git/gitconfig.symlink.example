@@ -4,6 +4,8 @@
 [github]
   user = USERNAME
   token = TOKEN
+[credential]
+  helper = osxkeychain
 [alias]
   amend = commit --amend
   fixup = commit --fixup
