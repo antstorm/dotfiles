@@ -1,15 +1,12 @@
-if [[ -n $SSH_CONNECTION ]]; then
-  export PS1='%m:%3~$(git_info_for_prompt)%# '
-else
-  export PS1='%3~$(git_info_for_prompt)%# '
-fi
+export ZSH=$HOME/.oh-my-zsh
+export ZSH_THEME="robbyrussell"
 
-export LSCOLORS="exfxcxdxbxegedabagacad"
-export CLICOLOR=true
-
+plugins=(git bundler brew)
 fpath=($ZSH/functions $fpath)
 
-autoload -U $ZSH/functions/*(:t)
+source $ZSH/oh-my-zsh.sh
+
+autoload -U ~/.dotfiles/functions/*(:t)
 
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
@@ -26,7 +23,6 @@ setopt EXTENDED_HISTORY # add timestamps to history
 setopt PROMPT_SUBST
 setopt CORRECT
 setopt COMPLETE_IN_WORD
-setopt IGNORE_EOF
 
 setopt APPEND_HISTORY # adds history
 setopt INC_APPEND_HISTORY SHARE_HISTORY  # adds history incrementally and share it across sessions
