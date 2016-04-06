@@ -17,3 +17,4 @@ brew 'wget'
 
 cask 'firefox'
 cask 'google-chrome'
+cask 'iterm2'
