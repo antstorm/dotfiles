@@ -6,6 +6,7 @@ tap 'homebrew/services'
 
 brew 'coreutils'
 brew 'grc'
+brew 'htop-osx'
 brew 'imagemagick'
 brew 'openssl'
 brew 'node'
