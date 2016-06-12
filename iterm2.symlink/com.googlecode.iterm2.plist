@@ -253,7 +253,7 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 202 606 456 0 0 1680 1050 </string>
+	<string>269 231 606 456 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
 	<string>0 0 1680 1050 0 0 1680 1027 </string>
 	<key>NeverWarnAboutShortLivedSessions_9DBB1DB8-467A-43EE-829D-8BA3DD6A1998</key>
@@ -858,7 +858,7 @@
 			<key>Semantic History</key>
 			<dict>
 				<key>action</key>
-				<string>best editor</string>
+				<string>editor</string>
 				<key>editor</key>
 				<string>com.sublimetext.3</string>
 				<key>text</key>
@@ -1003,12 +1003,25 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>6DB62997-6C61-4303-9DB1-C16E5DD58979</string>
+	<key>NoSyncLastTipTime</key>
+	<real>487430738.80916703</real>
+	<key>NoSyncPermissionToShowTip</key>
+	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>486729716.01725698</real>
 	<key>NoSyncTimeOfLastPromo</key>
 	<real>477583594.58985001</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
 	<real>486550292.60759097</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+		<string>0004</string>
+	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
 	<key>OpenArrangementAtStartup</key>
@@ -1075,7 +1088,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-06-06T14:40:10Z</date>
+	<date>2016-06-10T13:15:38Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
