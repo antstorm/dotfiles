@@ -1,7 +1,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_THEME="robbyrussell"
 
-plugins=(git bundler brew)
+plugins=(git hub bundler brew)
 fpath=($ZSH/functions $fpath)
 
 source $ZSH/oh-my-zsh.sh
