@@ -1012,7 +1012,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>6DB62997-6C61-4303-9DB1-C16E5DD58979</string>
 	<key>NoSyncLastTipTime</key>
-	<real>489410763.853374</real>
+	<real>490442177.59356099</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1048,6 +1048,15 @@
 		<string>0021</string>
 		<string>0022</string>
 		<string>0023</string>
+		<string>0024</string>
+		<string>0025</string>
+		<string>0026</string>
+		<string>0027</string>
+		<string>0028</string>
+		<string>0029</string>
+		<string>0030</string>
+		<string>0031</string>
+		<string>0032</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
@@ -1115,7 +1124,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-07-05T13:01:21Z</date>
+	<date>2016-07-16T12:48:19Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1140,6 +1149,8 @@
 	<false/>
 	<key>TmuxDashboardLimit</key>
 	<integer>10</integer>
+	<key>TraditionalVisualBell</key>
+	<true/>
 	<key>TripleClickSelectsFullWrappedLines</key>
 	<true/>
 	<key>URLHandlersByGuid</key>
@@ -1165,6 +1176,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.2</string>
+	<string>3.0.4</string>
 </dict>
 </plist>
