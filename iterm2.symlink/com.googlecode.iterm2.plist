@@ -258,8 +258,10 @@
 	<string>269 579 606 456 0 0 1680 1050 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>530 494 620 392 0 0 1680 1050 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>269 132 796 473 0 0 1680 1050 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 0 1680 1050 0 0 1680 1027 </string>
+	<string>0 0 1680 1050 0 0 1680 1050 </string>
 	<key>NeverWarnAboutShortLivedSessions_9DBB1DB8-467A-43EE-829D-8BA3DD6A1998</key>
 	<true/>
 	<key>New Bookmarks</key>
@@ -1012,7 +1014,7 @@
 	<key>NoSyncInstallationId</key>
 	<string>6DB62997-6C61-4303-9DB1-C16E5DD58979</string>
 	<key>NoSyncLastTipTime</key>
-	<real>490442177.59356099</real>
+	<real>494191103.09979999</real>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
@@ -1057,6 +1059,39 @@
 		<string>0030</string>
 		<string>0031</string>
 		<string>0032</string>
+		<string>0033</string>
+		<string>0034</string>
+		<string>0035</string>
+		<string>0036</string>
+		<string>0037</string>
+		<string>0038</string>
+		<string>0039</string>
+		<string>0040</string>
+		<string>0041</string>
+		<string>0042</string>
+		<string>0043</string>
+		<string>0044</string>
+		<string>0045</string>
+		<string>0046</string>
+		<string>0047</string>
+		<string>0048</string>
+		<string>0049</string>
+		<string>0050</string>
+		<string>0051</string>
+		<string>0052</string>
+		<string>0053</string>
+		<string>0054</string>
+		<string>0055</string>
+		<string>0056</string>
+		<string>0057</string>
+		<string>0058</string>
+		<string>0059</string>
+		<string>0060</string>
+		<string>0061</string>
+		<string>0062</string>
+		<string>0063</string>
+		<string>0064</string>
+		<string>0065</string>
 	</array>
 	<key>OnlyWhenMoreTabs</key>
 	<false/>
@@ -1124,7 +1159,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-07-16T12:48:19Z</date>
+	<date>2016-09-18T14:43:38Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -1137,8 +1172,10 @@
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.42132663726806641</real>
+	<key>SwitchPaneModifier</key>
+	<integer>9</integer>
 	<key>SwitchTabModifier</key>
-	<integer>4</integer>
+	<integer>9</integer>
 	<key>SwitchWindowModifier</key>
 	<integer>6</integer>
 	<key>TabStyle</key>
@@ -1176,6 +1213,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.4</string>
+	<string>3.0.7</string>
 </dict>
 </plist>
