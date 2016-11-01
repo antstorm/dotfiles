@@ -9,6 +9,7 @@ brew 'grc'           # Generic colouriser
 brew 'htop-osx'      # Interactive process-viewer
 brew 'hub'           # GitHub wrapper for git
 brew 'imagemagick'   # Command-line tool for image manipulation
+brew 'mas'           # CLI for Mac App Store
 brew 'node'          # Node.js
 brew 'openssl'       # OpenSSL
 brew 'postgresql'    # PostgreSQL database
