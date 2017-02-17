@@ -1,8 +1,9 @@
+export DOTFILES=$HOME/.dotfiles
 export ZSH=$HOME/.oh-my-zsh
 export ZSH_THEME="robbyrussell"
 
 plugins=(git hub bundler brew docker docker-compose)
-fpath=($ZSH/functions $fpath)
+fpath=($DOTFILES/functions $fpath)
 
 source $ZSH/oh-my-zsh.sh
 
