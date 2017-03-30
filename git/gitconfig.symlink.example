@@ -27,6 +27,8 @@
 [rebase]
   autostash = true
   autosquash = true
+[rerere]
+  enabled = true
 [color]
   status = auto
   branch = auto
