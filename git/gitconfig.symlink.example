@@ -12,6 +12,7 @@
   unstage = reset HEAD --
   discard = checkout --
   lo = log --oneline --decorate
+  undo = reset HEAD~1 --mixed
   aliases = !git config --get-regexp 'alias.*' | colrm 1 6 | sed 's/[ ]/ = /' | sort
 [apply]
   whitespace = nowarn
