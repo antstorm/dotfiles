@@ -21,3 +21,4 @@ brew 'wget'          # Non-interactive network retriever
 cask 'firefox'       # Firefox
 cask 'google-chrome' # Chrome
 cask 'iterm2'        # iTerm2 terminal
+cask 'ngrok'         # ngrok for exposing local ports to the outside world
