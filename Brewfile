@@ -16,6 +16,7 @@ brew 'postgresql'    # PostgreSQL database
 brew 'rbenv'         # Ruby version manager
 brew 'readline'      # Edit command lines as they are typed in
 brew 'ruby-build'    # List of ruby versions for rbenv
+brew 'tree'          # Hierarchical view of file system
 brew 'wget'          # Non-interactive network retriever
 
 cask 'firefox'       # Firefox
