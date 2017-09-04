@@ -1,0 +1,56 @@
+[
+  { "keys": ["ctrl+shift+."], "command": "erb" },
+  { "keys": ["escape"], "command": "alternative_autocomplete", "context":
+    [
+      { "key": "num_selections", "operator": "equal", "operand": 1 },
+      { "key": "overlay_visible", "operator": "equal", "operand": false },
+      { "key": "panel_visible", "operator": "equal", "operand": false }
+    ]
+  },
+  { "keys": ["shift+escape"], "command": "alternative_autocomplete", "args": { "cycle": "previous" }, "context":
+    [
+      { "key": "num_selections", "operator": "equal", "operand": 1 },
+      { "key": "overlay_visible", "operator": "equal", "operand": false },
+      { "key": "panel_visible", "operator": "equal", "operand": false }
+    ]
+  },
+
+  // Scrolling screen
+  { "keys": ["ctrl+alt+up"], "command": "scroll_lines", "args": {"amount": 5.0} },
+  { "keys": ["ctrl+alt+down"], "command": "scroll_lines", "args": {"amount": -5.0} },
+
+  // Swapping lines
+  { "keys": ["alt+super+up"], "command": "swap_line_up" },
+  { "keys": ["alt+super+down"], "command": "swap_line_down" },
+
+  // Changing case
+  { "keys": ["ctrl+u"], "command": "upper_case" },
+  { "keys": ["ctrl+shift+u"], "command": "lower_case" },
+
+  // Goto line and Goto function like in TextMate
+  { "keys": ["super+shift+t"], "command": "show_overlay", "args": {"overlay": "goto", "text": "@"} },
+  { "keys": ["super+l"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+
+  // ChangeQuotes
+  { "keys": ["ctrl+shift+'"], "command": "change_quotes" },
+
+  // MoveTabs
+  { "keys": ["ctrl+alt+super+left"], "command": "move_tab", "args": { "position": "-1" } },
+  { "keys": ["ctrl+alt+super+right"], "command": "move_tab", "args": { "position": "+1" } },
+
+  // Numberist
+  // { "keys": ["ctrl+super+up"], "command": "increase_number" },
+  // { "keys": ["ctrl+super+up"], "command": "increase_number" },
+  { "keys": ["ctrl+super+up"], "command": "modify_numbers", "args": { "args": { "modifier_name": "increment" } } },
+  { "keys": ["ctrl+super+down"], "command": "modify_numbers", "args": { "args": { "modifier_name": "decrement" } } },
+
+
+  // Clipboard Manager
+  { "keys": ["super+c"], "command": "clipboard_manager_copy" },
+  { "keys": ["super+x"], "command": "clipboard_manager_cut" },
+  { "keys": ["ctrl+alt+super+v"], "command": "clipboard_manager_choose_and_paste" },
+
+
+  // Copy relative file path
+  { "keys": ["super+alt+c"], "command": "copy_relative_path" }
+]
