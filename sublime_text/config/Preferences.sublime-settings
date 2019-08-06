@@ -25,6 +25,7 @@
 	"drag_text": false,
 	"draw_indent_guides": false,
 	"enable_tab_scrolling": false,
+	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
 	"find_selected_text": true,
 	"fold_buttons": false,
@@ -47,8 +48,10 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 14.0,
+	"font_size": 16.0,
+	"git_diff_target": "head",
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
