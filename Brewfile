@@ -1,6 +1,5 @@
 cask_args appdir: '/Applications'
 
-tap 'caskroom/cask'
 tap 'homebrew/bundle'
 tap 'homebrew/services'
 
@@ -22,3 +21,4 @@ cask 'firefox'       # Firefox
 cask 'google-chrome' # Chrome
 cask 'iterm2'        # iTerm2 terminal
 cask 'ngrok'         # ngrok for exposing local ports to the outside world
+cask 'sublime-text'  # Sublime Text 3
