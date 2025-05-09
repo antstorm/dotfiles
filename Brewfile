@@ -17,8 +17,8 @@ brew 'ruby-build'    # List of ruby versions for rbenv
 brew 'tree'          # Hierarchical view of file system
 brew 'wget'          # Non-interactive network retriever
 
-cask 'firefox'       # Firefox
-cask 'google-chrome' # Chrome
+# cask 'firefox'       # Firefox
+# cask 'google-chrome' # Chrome
 cask 'iterm2'        # iTerm2 terminal
-cask 'ngrok'         # ngrok for exposing local ports to the outside world
+# cask 'ngrok'         # ngrok for exposing local ports to the outside world
 cask 'sublime-text'  # Sublime Text 3

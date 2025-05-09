@@ -1,1 +1,1 @@
-export BUNDLER_EDITOR=/usr/local/bin/subl
+export BUNDLER_EDITOR=/opt/homebrew/bin/subl

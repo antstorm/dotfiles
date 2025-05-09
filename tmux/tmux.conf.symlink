@@ -1,4 +1,4 @@
 unbind C-b
-set-option -g prefix C-a
-bind C-a send-prefix
+set-option -g prefix C-q
+bind C-q send-prefix
 

@@ -48,14 +48,14 @@
 	[
 		"subpixel_antialias"
 	],
-	"font_size": 16.0,
+	"font_size": 20.0,
 	"git_diff_target": "head",
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"hot_exit": false,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"line_padding_bottom": 0,
 	"line_padding_top": 0,
@@ -63,16 +63,19 @@
 	"remember_open_files": false,
 	"rulers":
 	[
-		100
+		100,
+		120
 	],
 	"scroll_speed": 2.0,
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_completion": false,
 	"tab_size": 2,
-	"theme": "Soda Dark 3.sublime-theme",
+	"theme": "SoDaReloaded Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
-	"use_simple_full_screen": true,
-	"word_wrap": false
+	"use_simple_full_screen": false,
+	"word_wrap": false,
+	"index_files": true,
+	"index_exclude_gitignore": false,
 }

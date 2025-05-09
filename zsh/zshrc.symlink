@@ -39,3 +39,9 @@ do
 done
 
 unset config_files
+
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /opt/homebrew/bin/terraform terraform
+
+# Created by `pipx` on 2025-02-03 16:08:15
+export PATH="$PATH:/Users/antstorm/.local/bin"
