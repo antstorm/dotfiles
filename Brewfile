@@ -9,6 +9,7 @@ brew 'grc'           # Generic colouriser
 brew 'htop-osx'      # Interactive process-viewer
 brew 'hub'           # GitHub wrapper for git
 brew 'imagemagick'   # Command-line tool for image manipulation
+brew 'lua'           # Lua programming language
 brew 'neovim'        # NeoVim text editor
 brew 'node'          # Node.js
 brew 'openssl'       # OpenSSL
