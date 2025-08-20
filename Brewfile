@@ -4,16 +4,20 @@ tap 'homebrew/bundle'
 tap 'homebrew/services'
 
 brew 'coreutils'     # Basic file, shell and text manipulation utilities
+brew 'fzf'           # Fuzzy Find
 brew 'grc'           # Generic colouriser
 brew 'htop-osx'      # Interactive process-viewer
 brew 'hub'           # GitHub wrapper for git
 brew 'imagemagick'   # Command-line tool for image manipulation
+brew 'neovim'        # NeoVim text editor
 brew 'node'          # Node.js
 brew 'openssl'       # OpenSSL
 brew 'postgresql'    # PostgreSQL database
 brew 'rbenv'         # Ruby version manager
 brew 'readline'      # Edit command lines as they are typed in
+brew 'ripgrep'       # Fast grep
 brew 'ruby-build'    # List of ruby versions for rbenv
+brew 'tmux'          # Terminal Multiplexer
 brew 'tree'          # Hierarchical view of file system
 brew 'wget'          # Non-interactive network retriever
 
@@ -21,4 +25,4 @@ brew 'wget'          # Non-interactive network retriever
 # cask 'google-chrome' # Chrome
 cask 'iterm2'        # iTerm2 terminal
 # cask 'ngrok'         # ngrok for exposing local ports to the outside world
-cask 'sublime-text'  # Sublime Text 3
+# cask 'sublime-text'  # Sublime Text 3
