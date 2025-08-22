@@ -45,3 +45,8 @@ complete -o nospace -C /opt/homebrew/bin/terraform terraform
 
 # Created by `pipx` on 2025-02-03 16:08:15
 export PATH="$PATH:/Users/antstorm/.local/bin"
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/antstorm/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
