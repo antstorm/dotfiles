@@ -8,11 +8,13 @@ return {
     local lspconfig = require("lspconfig")
 
     lspconfig.ruby_lsp.setup({
-      capabilities = capabilities
+      capabilities = capabilities,
+      offset_encoding = 'utf-8'
     })
 
     lspconfig.sorbet.setup({
-      cmd = { 'bundle', 'exec', 'srb', 'tc', '--lsp', '--disable-watchman' }
+      cmd = { 'bundle', 'exec', 'srb', 'tc', '--lsp', '--disable-watchman' },
+      offset_encoding = 'utf-8'
     })
 
     vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})

@@ -13,7 +13,7 @@ return {
       { "<leader>fs", "<cmd>Telescope grep_string<cr>", desc = "Grep current word" },
       { "<leader>fc", "<cmd>Telescope commands<cr>", desc = "Find Commands" },
       { "<leader>ft", "<cmd>Telescope lsp_document_symbols<cr>", desc = "Find in Symbols" },
-      { "<leader>fi", "<cmd>Telescope lsp_definitions<cr>", desc = "Jump to definition" },
+      { "<leader>fd", "<cmd>Telescope lsp_definitions<cr>", desc = "Jump to definition" },
       { "<leader>fe", "<cmd>Telescope lsp_references<cr>", desc = "Show references" },
       { "<leader>fr", "<cmd>Telescope resume<cr>", desc = "Resume the last picker" },
     },
