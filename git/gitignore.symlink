@@ -5,6 +5,8 @@
 .ruby-version
 .bundle
 .idea
+.ignore
 .gems
 .pryrc
 MY_TODO.md
+CLAUDE.md
