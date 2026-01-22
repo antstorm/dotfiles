@@ -5,17 +5,18 @@ return {
   config = function()
     local capabilities = require("cmp_nvim_lsp").default_capabilities()
 
-    local lspconfig = require("lspconfig")
+    -- vim.lsp.config('ruby', {
+    --   capabilities = capabilities,
+    --   offset_encoding = 'utf-8'
+    -- })
 
-    lspconfig.ruby_lsp.setup({
-      capabilities = capabilities,
-      offset_encoding = 'utf-8'
-    })
-
-    lspconfig.sorbet.setup({
+    vim.lsp.config('sorbet', {
       cmd = { 'bundle', 'exec', 'srb', 'tc', '--lsp', '--disable-watchman' },
       offset_encoding = 'utf-8'
     })
+
+    -- vim.lsp.enable('ruby')
+    vim.lsp.enable('sorbet')
 
     vim.keymap.set("n", "<leader>gd", vim.lsp.buf.definition, {})
     vim.keymap.set("n", "<leader>gr", vim.lsp.buf.references, {})

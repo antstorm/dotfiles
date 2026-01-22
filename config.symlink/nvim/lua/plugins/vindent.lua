@@ -8,7 +8,7 @@ return {
 			loose      = { skip_empty_lines = true,  skip_more_indented_lines = true  },
 		}
 
-		vindent.map.BlockMotion({ prev = "<leader>m", next = "<leader>n" }, block_opts.contiguous)
+		vindent.map.BlockMotion({ prev = "<leader>n", next = "<leader>m" }, block_opts.contiguous)
 		-- vindent.map.Motion({ prev = "[-", next = "]-" }, "less")
 		-- vindent.map.Motion({ prev = "[+", next = "]+" }, "more")
 		-- vindent.map.Motion({ prev = "[;", next = "];" }, "diff")
