@@ -1,0 +1,15 @@
+font-family = "Inconsolata Nerd Font Mono"
+font-size = 18
+font-thicken = true
+alpha-blending = native
+keybind = alt+left=unbind
+keybind = alt+right=unbind
+keybind = cmd+f=toggle_quick_terminal
+quick-terminal-position = bottom
+quick-terminal-animation-duration = 0.15
+gtk-titlebar = false
+window-decoration = false
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+macos-icon = glass
